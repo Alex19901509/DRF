@@ -6,7 +6,7 @@ docker-compose up -d --build
 
 Для работы с проектом необходимо:
 
-Клонировать репозиторий: https://github.com/KateRomanova/DRF
+Клонировать репозиторий: https://github.com/Alex19901509/DRF
 
 Создать зависимости из файла pyproject.toml, выполнив команду <pip install> или <poetry install>
 
