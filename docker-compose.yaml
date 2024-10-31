@@ -11,7 +11,7 @@ services:
     image: postgres
     restart: on-failure
     environment:
-      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_PASSWORD: ${PASSWORD}
       PGDATA: /var/lib/postgresql/data/pgdata
     healthcheck:
       test: ["CMD-SHELL", "-c", "pg_isready -U $POSTGRES_USER"]
